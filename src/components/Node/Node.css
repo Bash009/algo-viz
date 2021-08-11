@@ -1,0 +1,34 @@
+.node {
+  margin: 2px;
+  width: 1.75rem;
+  height: 1.75rem;
+  display: inline-block;
+  outline: 1px solid var(--unvisited-outline);
+  background-color: var(--unvisited);
+}
+
+.node-source {
+  background-color: var(--source);
+}
+
+.node-target {
+  background-color: var(--target);
+}
+
+.node-wall {
+  background-color: var(--wall);
+  box-shadow: 0 0 10px inset var(--wall-outline);
+}
+
+.node-visited {
+  background-color: var(--visited);
+}
+
+.node-shortest-path {
+  background-color: var(--shortest-path);
+}
+
+.node-final {
+  outline: 1px solid var(--node-outline);
+  box-shadow: 0 0 5px inset var(--node-outline);
+}

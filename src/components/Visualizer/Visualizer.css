@@ -1,0 +1,37 @@
+.visualizer {
+  min-height: 75vh;
+  /* min-height: calc(90vh - 5rem); */
+}
+
+.board-layout {
+  padding: 1rem;
+}
+
+.board-row {
+  margin-bottom: -4px;
+}
+
+.node-legend {
+  margin: 0;
+  width: 15px;
+  height: 15px;
+}
+
+.node-legend-final {
+  outline: 1px solid var(--node-outline);
+  box-shadow: 0 0 5px inset var(--node-outline);
+}
+
+label {
+  font-weight: 500;
+  padding: 0.5rem;
+}
+
+input[type="number"] {
+  width: 4rem;
+  height: 30px;
+}
+
+.message {
+  padding: 0.5rem;
+}
